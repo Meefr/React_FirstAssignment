@@ -13,6 +13,7 @@
     z-index: 3;
     height: 100px;
     width: 50px;
+    overflow: hidden;
 }
 .settings img{
     display: block;
