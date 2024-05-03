@@ -1,0 +1,166 @@
+
+.settings{
+    position: fixed;
+    top: 200px;
+    right: 0;
+    background-color: #f8f8f8;
+    padding: 7px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    z-index: 3;
+    height: 100px;
+    width: 50px;
+}
+.settings img{
+    display: block;
+    width: 100%;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.navbar {
+    background-color: black; /* Background color */
+    height: 15%;
+    display: flex; /* Flex layout to align items */
+    justify-content: space-between; /* Align items horizontally */
+    align-items: center; /* Align items vertically */
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.navbar img {
+    height: 50%; /* Adjust height of the logo */
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 50px;
+}
+
+.navbar ul {
+    list-style-type: none; /* Remove bullet points */
+    margin: 0;
+    margin-right: 30px;
+    padding: 0;
+    display: flex; /* Flex layout for the list */
+}
+.navbar li {
+    margin-right: 20px; /* Adjust space between list items */
+}
+
+.navbar li a {
+    text-decoration: none; /* Remove underline from links */
+    color: white; /* Link color */
+    padding: 5px 10px; /* Padding for links */
+    border-radius: 5px; /* Rounded corners */
+    font-size: large;
+}
+
+.navbar li a:hover {
+    color: red; /* Background color on hover */
+}
+
+.welcome{
+    margin-top: 150px;
+    margin-bottom: 100px;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome h3{
+    font-size: 30px;
+    margin-bottom: 40px;
+   
+}
+.welcome h1{
+    font-size: 70px;
+    font-family: "Alegreya", serif;
+}
+
+.welcome p,h3{
+    color: gray;
+    font-family: "Alegreya Sans", sans-serif;
+}
+
+.welcome p{
+    font-size: 20px;
+}
+
+.welcome button{
+    padding: 30px;
+    color: white;
+    font-size: large;
+    border-radius: 10px;
+    background-color: black;
+}
+.buttons{
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    width: 30%;
+}
+
+.welcome button:hover{
+    color: black;
+    background-color: white;
+}
+
+.parent{  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FCFCFC;
+    margin: 50px;
+}
+.container1{   
+    display: flex;
+    align-items: center;
+    width: 80%;
+    font-family: "Alegreya", serif;
+}
+.container1 img{
+    left: 0;
+    margin-right: 30px;
+    width: 50%;
+}
+.divWhoWeAre{
+    flex: 1;
+    /* display: inline-block; */
+}
+
+.divWhoWeAre_list{
+    display: flex;
+    align-items: center;
+}
+
+.divWhoWeAre_list img{
+    width: 5%;
+    margin-right: 10px;
+}
+.divWhoWeAre_list p {
+    font-size: 14px;
+    color: gray;
+    font-family: "Alegreya Sans", sans-serif;
+}
+.divWhoWeAre p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    color: gray;
+    font-family: "Alegreya Sans", sans-serif;
+}
+.divWhoWeAre h2 {
+    font-size: 40px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.outer{
+    display: block;
+    background-color: #353330;
+    text-align: center;
+    padding-top: 50px;
+    width: 100%;
+}
