@@ -178,3 +178,34 @@
     padding-top: 50px;
     width: 100%;
 }
+
+.ourBaking{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+
+.ourBaking h2{
+    font-size: 50px;
+}
+
+.ourBaking p{
+    font-size: large;
+    font-family: "Alegreya Sans", sans-serif;
+    margin: 10px;
+}
+.container{
+    display: inline-block;
+    width: 30%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.container img{
+    margin-top: 0px;
+    width: 95%;
+}
+
+.container h3{
+    font-size: 25px;
+}
