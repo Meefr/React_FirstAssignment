@@ -2,6 +2,14 @@
     margin: 0;
     padding: 0;
 }
+
+p{
+    font-family: "Alegreya Sans", sans-serif;
+}
+h1,h2,h3,h5{
+    font-family: "Alegreya", serif;
+}
+
 .settings{
     position: fixed;
     top: 200px;
@@ -23,7 +31,7 @@
 }
 
 .navbar {
-    background-color: black; /* Background color */
+    background-color: 353330; /* Background color */
     height: 15%;
     display: flex; /* Flex layout to align items */
     justify-content: space-between; /* Align items horizontally */
@@ -58,10 +66,12 @@
     padding: 5px 10px; /* Padding for links */
     border-radius: 5px; /* Rounded corners */
     font-size: large;
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 500;
 }
 
 .navbar li a:hover {
-    color: red; /* Background color on hover */
+    color: #8F7854; /* Background color on hover */
 }
 
 .welcome{
@@ -177,7 +187,27 @@
     text-align: center;
     padding-top: 50px;
     width: 100%;
+    height: 300px;
 }
+.outer p{
+    color: #636666;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.links{
+    display: flex;
+    justify-content: center;
+}
+.links a{
+    margin: 10px
+}
+
+.links a i{
+    font-size: 30px;
+    color: #8F754F;
+}
+
+
 
 .ourBaking{
     width: 80%;
@@ -209,3 +239,93 @@
 .container h3{
     font-size: 25px;
 }
+
+.outerContainer {
+    display: flex;
+    padding: 100px; 
+    background-color: #403D38; 
+}
+
+.about {
+    flex: 1 1 300px;
+    padding: 10px;
+    margin: auto;
+}
+
+.about h2 {
+    color: #f8f8f8;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 15px;
+    line-height: 1.5;
+    color: #898885;
+}
+
+.options {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.options img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.contactContainer{
+    display: flex;
+    align-items: center;
+    padding: 100px;
+    background-color: #F8F9FA;
+    /* width: 100%; */
+}
+
+.contacvtInformation{
+    display: inline-block;
+    width: 50%;
+}
+
+.contactDetails{
+    display: flex;
+    align-items: center;
+}
+
+.contactDetails img{
+    margin-right: 20px ;
+    width: 5%;
+}
+.contactDetails p{
+    display: inline;
+}
+
+.contactContainer iframe{
+    width: 50%;
+    height: 400px;
+    margin-left: 100px;
+    border: 0;
+    border-radius: 10px;
+}
+
+.contacvtInformation h3{
+    font-family: "Alegreya", serif;
+    color: black;
+    font-size: 50px;
+    margin-left: 0;
+}
+
+.contacvtInformation p{
+    font-size: 20px;
+    color: #717478;
+}
+
+.contacvtInformation h5{
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #717478;
+}
+
+
