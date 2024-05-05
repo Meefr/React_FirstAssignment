@@ -1,8 +1,12 @@
 *{
     margin: 0;
     padding: 0;
+    scroll-margin-block-start: 110px;
+    scroll-margin-block-end: 110px;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 p{
     font-family: "Alegreya Sans", sans-serif;
 }
@@ -210,6 +214,8 @@ h1,h2,h3,h5{
 
 
 .ourBaking{
+    scroll-margin-block-start: 200px;
+    scroll-margin-block-end: 200px;
     width: 80%;
     text-align: center;
     margin: auto;
@@ -241,13 +247,15 @@ h1,h2,h3,h5{
 }
 
 .outerContainer {
-    display: flex;
     padding: 100px; 
     background-color: #403D38; 
 }
 
 .about {
-    flex: 1 1 300px;
+    display: inline-block;
+    width: 17%;
+    vertical-align: top;
+    /* flex: 1 1 300px; */
     padding: 10px;
     margin: auto;
 }
@@ -281,6 +289,9 @@ h1,h2,h3,h5{
     align-items: center;
     padding: 100px;
     background-color: #F8F9FA;
+
+    /* scroll-margin-block-start: 110px;
+    scroll-margin-block-end: 110px; */
     /* width: 100%; */
 }
 
